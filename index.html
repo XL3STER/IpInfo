@@ -8,9 +8,108 @@
     <link rel="stylesheet" href="style.css">
     <title>IP Tracker</title>
 </head>
+<style type="text/css">
+.gayRainbow{-webkit-animation:colorRotate 6s linear 0s infinite;-moz-animation:colorRotate 6s linear 0s infinite;-o-animation:colorRotate 6s linear 0s infinite;animation:colorRotate 6s linear 0s infinite;color:white;font-weight:bold;}@-webkit-keyframes colorRotate{from{text-shadow:0px 0px 0.2em rgb(255,0,0),0px 0px 0.2em rgb(255,0,0),0px 0px 0.2em rgb(255,0,0);}16.6% {
+      text-shadow: 0px 0px 0.2em rgb(255, 0, 255), 0px 0px 0.2em rgb(255, 0, 255), 0px 0px 0.2em rgb(255, 0, 255);
+    }
+    33.3% {
+      text-shadow: 0px 0px 0.2em rgb(0, 0, 255), 0px 0px 0.2em rgb(0, 0, 255), 0px 0px 0.2em rgb(0, 0, 255);
+    }
+    50% {
+      text-shadow: 0px 0px 0.2em rgb(0, 255, 255), 0px 0px 0.2em rgb(0, 0, 255), 0px 0px 0.2em rgb(0, 255, 255);
+    }
+    66.6% {
+      text-shadow: 0px 0px 0.2em rgb(0, 255, 0), 0px 0px 0.2em rgb(0, 0, 0), 0px 0px 0.2em rgb(0, 255, 0);
+    }
+    83.3% {
+      text-shadow: 0px 0px 0.2em rgb(255, 255, 0), 0px 0px 0.2em rgb(255, 0, 0), 0px 0px 0.2em rgb(255, 255, 0);
+    }
+    to {
+      text-shadow: 0px 0px 0.2em rgb(255, 0, 0), 0px 0px 0.2em rgb(255, 0, 0), 0px 0px 0.2em rgb(255, 0, 0);
+    }
+}
+@-moz-keyframes colorRotate {
+    from {
+      text-shadow: 0px 0px 0.2em rgb(255, 0, 0), 0px 0px 0.2em rgb(255, 0, 0), 0px 0px 0.2em rgb(255, 0, 0);
+    }
+    16.6% {
+      text-shadow: 0px 0px 0.2em rgb(255, 0, 255), 0px 0px 0.2em rgb(255, 0, 255), 0px 0px 0.2em rgb(255, 0, 255);
+    }
+    33.3% {
+      text-shadow: 0px 0px 0.2em rgb(0, 0, 255), 0px 0px 0.2em rgb(0, 0, 255), 0px 0px 0.2em rgb(0, 0, 255);
+    }
+    50% {
+      text-shadow: 0px 0px 0.2em rgb(0, 255, 255), 0px 0px 0.2em rgb(0, 0, 255), 0px 0px 0.2em rgb(0, 255, 255);
+    }
+    66.6% {
+      text-shadow: 0px 0px 0.2em rgb(0, 255, 0), 0px 0px 0.2em rgb(0, 0, 0), 0px 0px 0.2em rgb(0, 255, 0);
+    }
+    83.3% {
+      text-shadow: 0px 0px 0.2em rgb(255, 255, 0), 0px 0px 0.2em rgb(255, 0, 0), 0px 0px 0.2em rgb(255, 255, 0);
+    }
+    to {
+      text-shadow: 0px 0px 0.2em rgb(255, 0, 0), 0px 0px 0.2em rgb(255, 0, 0), 0px 0px 0.2em rgb(255, 0, 0);
+    }
+}
+@-o-keyframes colorRotate {
+    from {
+      text-shadow: 0px 0px 0.2em rgb(255, 0, 0), 0px 0px 0.2em rgb(255, 0, 0), 0px 0px 0.2em rgb(255, 0, 0);
+    }
+    16.6% {
+      text-shadow: 0px 0px 0.2em rgb(255, 0, 255), 0px 0px 0.2em rgb(255, 0, 255), 0px 0px 0.2em rgb(255, 0, 255);
+    }
+    33.3% {
+      text-shadow: 0px 0px 0.2em rgb(0, 0, 255), 0px 0px 0.2em rgb(0, 0, 255), 0px 0px 0.2em rgb(0, 0, 255);
+    }
+    50% {
+      text-shadow: 0px 0px 0.2em rgb(0, 255, 255), 0px 0px 0.2em rgb(0, 0, 255), 0px 0px 0.2em rgb(0, 255, 255);
+    }
+    66.6% {
+      text-shadow: 0px 0px 0.2em rgb(0, 255, 0), 0px 0px 0.2em rgb(0, 0, 0), 0px 0px 0.2em rgb(0, 255, 0);
+    }
+    83.3% {
+      text-shadow: 0px 0px 0.2em rgb(255, 255, 0), 0px 0px 0.2em rgb(255, 0, 0), 0px 0px 0.2em rgb(255, 255, 0);
+    }
+    to {
+      text-shadow: 0px 0px 0.2em rgb(255, 0, 0), 0px 0px 0.2em rgb(255, 0, 0), 0px 0px 0.2em rgb(255, 0, 0);
+    }
+}
+@keyframes colorRotate {
+    from {
+      text-shadow: 0px 0px 0.2em rgb(255, 0, 0), 0px 0px 0.2em rgb(255, 0, 0), 0px 0px 0.2em rgb(255, 0, 0);
+    }
+    16.6% {
+      text-shadow: 0px 0px 0.2em rgb(255, 0, 255), 0px 0px 0.2em rgb(255, 0, 255), 0px 0px 0.2em rgb(255, 0, 255);
+    }
+    33.3% {
+      text-shadow: 0px 0px 0.2em rgb(0, 0, 255), 0px 0px 0.2em rgb(0, 0, 255), 0px 0px 0.2em rgb(0, 0, 255);
+    }
+    50% {
+      text-shadow: 0px 0px 0.2em rgb(0, 255, 255), 0px 0px 0.2em rgb(0, 0, 255), 0px 0px 0.2em rgb(0, 255, 255);
+    }
+    66.6% {
+      text-shadow: 0px 0px 0.2em rgb(0, 255, 0), 0px 0px 0.2em rgb(0, 0, 0), 0px 0px 0.2em rgb(0, 255, 0);
+    }
+    83.3% {
+      text-shadow: 0px 0px 0.2em rgb(255, 255, 0), 0px 0px 0.2em rgb(255, 0, 0), 0px 0px 0.2em rgb(255, 255, 0);
+    }
+    to {
+      text-shadow: 0px 0px 0.2em rgb(255, 0, 0), 0px 0px 0.2em rgb(255, 0, 0), 0px 0px 0.2em rgb(255, 0, 0);
+    }
+}
+
+.gayRainbow {
+    -webkit-animation: colorRotate 6s linear 0s infinite;
+    -moz-animation: colorRotate 6s linear 0s infinite;
+    -o-animation: colorRotate 6s linear 0s infinite;
+    /* animation: colorRotate 6s linear 0s infinite; */
+    color: white;
+    font-weight: bold;
+}
+</style>
 <body>
     <nav>
-        <h1>IP ADDRESS TRACKER</h1>
+        <h1><span class="gayRainbow">IP Tracker</h1>
         <div class="search-box">
             <input type="text" id="search" placeholder="Search for any IP Address">
             <button id="btn">Search</button>
